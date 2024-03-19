@@ -9,6 +9,11 @@ body {
 }
 
 /* INIZIO HEADER PAGINA */
+
+header {
+    background-color: white;
+}
+
 .headCont {
     width: 1200px;
     margin: 0 auto;
@@ -123,3 +128,55 @@ body {
 }
 
 /* FINZE SEZIONE TASK*
+
+/* INSERIRE SEZIONE BOTTONI TASK */
+
+.blueTask-Button {
+    padding: 7px;
+    background-color: #47ADF1;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.purpleTask-Button {
+    padding: 7px;
+    background-color: #9A70E3;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.greenTask-Button {
+    padding: 7px;
+    background-color: #64C0A9;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.orangeTask-Button {
+    padding: 7px;
+    background-color: #F29E33;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.pinkTask-Button {
+    padding: 7px;
+    background-color: #D863A1;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.limeTask-Button {
+    padding: 7px;
+    background-color: #B0C926;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+/* FINE SEZIONI BOTTONI TASK*/
