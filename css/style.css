@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* INIZIO HEADER PAGINA */
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#textLogo {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+}
+
+#logo {
+    height: 70px;
+    width: auto;
+    vertical-align: middle;
+}
+
+/* FINE HEADER PAGINA */
