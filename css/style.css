@@ -5,15 +5,18 @@
 }
 
 /* INIZIO HEADER PAGINA */
-.conteiner {
+.headCont {
     width: 1200px;
     margin: 0 auto;
+    background-color: white;
+    margin-bottom: 60px;
 }
 
 #textLogo {
     display: inline-block;
     vertical-align: middle;
     font-size: 40px;
+    font-family: sans-serif;
 }
 
 #logo {
@@ -23,3 +26,41 @@
 }
 
 /* FINE HEADER PAGINA */
+
+/* INIZIO SEZIONE BOTTINI */
+.mainCont {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.buttonBox {
+    height: 70px;
+    width: 900px;
+    margin-top: 50px;
+    background-color: aqua;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+#blueButton {
+    border-radius: 5px;
+    background-color: #47ADF1;
+    border: 0;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#grayButton {
+    border-radius: 5px;
+    background-color: white;
+    border-color: lightgray;
+    padding: 10px;
+    color: lightgray;
+    font-weight: bold;
+}
+
+/* FINE SEZIONE BOTTINI */
