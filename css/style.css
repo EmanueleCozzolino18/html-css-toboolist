@@ -105,6 +105,7 @@ header {
 .listStyle {
     list-style: none;
     line-height: 40px;
+    font-weight: normal;
 }
 
 .checkCross {
