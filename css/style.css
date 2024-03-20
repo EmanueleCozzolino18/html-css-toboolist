@@ -103,10 +103,11 @@ header {
 }
 
 .listStyle {
-    list-style: none;
     line-height: 40px;
-    font-weight: normal;
+    vertical-align: middle;
+    list-style: none;
 }
+
 
 .checkCross {
     border: 1.5px solid green;
@@ -116,6 +117,9 @@ header {
     text-align: center;
     color: green;
     padding-left: 3px;
+    margin-right: 1px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 .redcheckCross {
@@ -126,58 +130,49 @@ header {
     text-align: center;
     color: red;
     padding-left: 3px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 /* FINZE SEZIONE TASK*
 
 /* INSERIRE SEZIONE BOTTONI TASK */
 
-.blueTask-Button {
+.button {
     padding: 7px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    vertical-align: middle;
+}
+
+.blueTask {
     background-color: #47ADF1;
-    border-radius: 10px;
-    font-size: 15px;
-    color: white;
 }
 
-.purpleTask-Button {
-    padding: 7px;
+.purpleTask {
     background-color: #9A70E3;
-    border-radius: 10px;
-    font-size: 15px;
-    color: white;
+
 }
 
-.greenTask-Button {
-    padding: 7px;
+.purpleTask {
     background-color: #64C0A9;
-    border-radius: 10px;
-    font-size: 15px;
-    color: white;
 }
 
-.orangeTask-Button {
-    padding: 7px;
+.greenTask {
+    background-color: #64C0A9;
+}
+
+.orangeTask {
     background-color: #F29E33;
-    border-radius: 10px;
-    font-size: 15px;
-    color: white;
 }
 
-.pinkTask-Button {
-    padding: 7px;
+.pinkTask {
     background-color: #D863A1;
-    border-radius: 10px;
-    font-size: 15px;
-    color: white;
 }
 
-.limeTask-Button {
-    padding: 7px;
+.limeTask {
     background-color: #B0C926;
-    border-radius: 10px;
-    font-size: 15px;
-    color: white;
 }
 
 /* FINE SEZIONI BOTTONI TASK*/
